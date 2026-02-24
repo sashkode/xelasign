@@ -66,7 +66,7 @@
       <a
         v-if="isDemo"
         target="_blank"
-        href="https://github.com/docusealco/docuseal"
+        href="https://github.com/sashkode/xelasign"
         class="white-button flex items-center space-x-1 w-full"
       >
         <IconBrandGithub />
@@ -76,7 +76,7 @@
       </a>
       <a
         v-if="isDemo"
-        href="https://docuseal.com/sign_up"
+        href="https://sign.xelasoft.com/sign_up"
         class="white-button flex items-center space-x-1 w-full"
       >
         <IconLogin />
@@ -91,10 +91,10 @@
     >
       {{ t('powered_by') }}
       <a
-        href="https://www.docuseal.com/start"
+        href="https://sign.xelasoft.com/start"
         target="_blank"
         class="underline"
-      >DocuSeal</a> - {{ t('open_source_documents_software') }}
+      >XelaSign</a> - {{ t('open_source_documents_software') }}
     </div>
   </div>
 </template>
