@@ -122,7 +122,7 @@ class ApplicationController < ActionController::Base
   end
 
   def maybe_redirect_com
-    return if request.domain != 'xelasoft.com'
+    return if request.domain != 'xelasoft.ca'
 
     redirect_to request.url, allow_other_host: true, status: :moved_permanently
   end

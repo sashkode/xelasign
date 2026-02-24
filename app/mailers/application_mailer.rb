@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class ApplicationMailer < ActionMailer::Base
-  default from: 'XelaSign <info@xelasoft.com>'
+  default from: 'XelaSign <info@xelasoft.ca>'
   layout 'mailer'
 
   register_interceptor ActionMailerConfigsInterceptor

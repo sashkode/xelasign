@@ -76,7 +76,7 @@
       </a>
       <a
         v-if="isDemo"
-        href="https://sign.xelasoft.com/sign_up"
+        href="https://sign.xelasoft.ca/sign_up"
         class="white-button flex items-center space-x-1 w-full"
       >
         <IconLogin />
@@ -91,7 +91,7 @@
     >
       {{ t('powered_by') }}
       <a
-        href="https://sign.xelasoft.com/start"
+        href="https://sign.xelasoft.ca/start"
         target="_blank"
         class="underline"
       >XelaSign</a> - {{ t('open_source_documents_software') }}

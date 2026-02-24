@@ -2,7 +2,7 @@
 
 class ErrorsController < ActionController::Base
   ENTERPRISE_FEATURE_MESSAGE =
-    'This feature is available in Pro Edition: https://sign.xelasoft.com/pricing'
+    'This feature is available in Pro Edition: https://sign.xelasoft.ca/pricing'
 
   ENTERPRISE_PATHS = [
     '/submissions/html',

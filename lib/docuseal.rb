@@ -2,7 +2,7 @@
 
 module Docuseal
   URL_CACHE = ActiveSupport::Cache::MemoryStore.new
-  PRODUCT_URL = 'https://sign.xelasoft.com'
+  PRODUCT_URL = 'https://sign.xelasoft.ca'
   PRODUCT_EMAIL_URL = ENV.fetch('PRODUCT_EMAIL_URL', PRODUCT_URL)
   NEWSLETTER_URL = "#{PRODUCT_URL}/newsletters".freeze
   ENQUIRIES_URL = "#{PRODUCT_URL}/enquiries".freeze
@@ -13,7 +13,7 @@ module Docuseal
   TWITTER_URL = 'https://twitter.com/docusealco'
   TWITTER_HANDLE = '@docusealco'
   CHATGPT_URL = "#{PRODUCT_URL}/chat".freeze
-  SUPPORT_EMAIL = 'support@xelasoft.com'
+  SUPPORT_EMAIL = 'support@xelasoft.ca'
   HOST = ENV.fetch('HOST', 'localhost')
   AATL_CERT_NAME = 'xelasign_aatl'
   CONSOLE_URL = if Rails.env.development?
@@ -21,19 +21,19 @@ module Docuseal
                 elsif ENV['MULTITENANT'] == 'true'
                   "https://console.#{HOST}"
                 else
-                  'https://console.sign.xelasoft.com'
+                  'https://console.sign.xelasoft.ca'
                 end
   CLOUD_URL = if Rails.env.development?
                 'http://localhost:3000'
               else
-                'https://sign.xelasoft.com'
+                'https://sign.xelasoft.ca'
               end
   CDN_URL = if Rails.env.development?
               'http://localhost:3000'
             elsif ENV['MULTITENANT'] == 'true'
               "https://cdn.#{HOST}"
             else
-              'https://cdn.sign.xelasoft.com'
+              'https://cdn.sign.xelasoft.ca'
             end
 
   CERTS = JSON.parse(ENV.fetch('CERTS', '{}'))
