@@ -66,7 +66,7 @@
       <a
         v-if="isDemo"
         target="_blank"
-        href="https://github.com/sashkode/xelasign"
+        href="https://github.com/xelasoft-inc/xelasign"
         class="white-button flex items-center space-x-1 w-full"
       >
         <IconBrandGithub />
